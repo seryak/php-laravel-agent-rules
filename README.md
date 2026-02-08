@@ -1,3 +1,5 @@
+👉 **[Русская версия документа](README_RU.md)**
+
 # LLM Agent Rules
 
 I created this repository as a template for configuring LLM agents according to my technology stack and the individual characteristics of my projects.
