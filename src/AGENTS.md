@@ -16,10 +16,9 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 <!-- OPENSPEC:END -->
 
 <!-- USER:CODING-RULES:START -->
-- The project runs inside the Docker container `www-php-root-1`, so any PHP-related commands must be executed inside this container in the `/var/www/html/news2.web/` directory.
+- The project runs inside the Docker container `NAME_OF_CONTAINER`, so any PHP-related commands must be executed inside this container in the `/full/path/to/your/project` directory.
 - The project can be accessed in the browser at:
-    - http://news.news2.web/
-    - http://market.news2.web/
+    - http://localhost:8080
 - OpenSpec is installed globally via npm.
 
 Before writing new code or editing existing code:

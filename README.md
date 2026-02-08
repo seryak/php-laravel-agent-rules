@@ -13,6 +13,11 @@ This repository helps AI agents behave the way I expect by providing **explicit 
 - how to validate changes
 - how to handle deviations from the rules
 
+## Information to Update
+- In `AGENTS.md`, search for and replace the Docker container name (look for the `NAME_OF_CONTAINER` string), as well as the full path inside the container (look for the `/full/path/to/your/project` string).  
+  Alternatively, remove this instruction entirely if you are not using Docker.
+- Specify the project URL (search for the `http://localhost:8080` string).
+
 ## Core Concept
 
 Each project or technology stack is described using:
